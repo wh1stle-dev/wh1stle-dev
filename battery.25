@@ -1,0 +1,18 @@
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Text("Mon")
+            Image(systemName: "battery.25")
+                .foregroundColor(Color.yellow)
+            Text("High: 70")
+            Text("Low: 50")
+        }
+        .padding()
+    }
+}
+
+#Preview {
+    ContentView()
+}
